@@ -1,0 +1,12 @@
+<view>
+  <view class='container'>登录</view>  
+  <view>
+    <form bindsubmit='login'>
+      <view class='loginInputView'>登录名：
+        <input type='text' name='username' class='loginInput'></input>
+      </view>
+      <view class='loginInputView'>密码：<input type='text' name='password' password></input></view>
+      <view><button form-type="submit">登录</button></view>
+    </form>
+  </view>
+</view>

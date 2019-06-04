@@ -1,13 +1,48 @@
 {
   "pages": [
+    "pages/login/login",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "销售管家",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f6f6f6",
+    "enablePullDownRefresh": true
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#EB6460",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/img/common/index.png",
+        "selectedIconPath": "pages/img/common/selectIndex.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "iconPath": "pages/img/common/mer.png",
+        "selectedIconPath": "pages/img/common/selectMer.png",
+        "text": "商户"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "iconPath": "pages/img/common/team.png",
+        "selectedIconPath": "pages/img/common/selectTeam.png",
+        "text": "团队"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "iconPath": "pages/img/common/personal.png",
+        "selectedIconPath": "pages/img/common/selectPersonal.png",
+        "text": "个人"
+      }
+    ]
+  }
 }

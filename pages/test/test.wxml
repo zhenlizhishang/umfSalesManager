@@ -1,0 +1,2 @@
+<button bindtap='getCode'>获取code</button>
+<text selectable='{{true}}'>code:{{code}}</text>
