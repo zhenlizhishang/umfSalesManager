@@ -1,12 +1,32 @@
-<view>
-  <view class='container'>登录</view>  
-  <view>
+<view class="page">
+  <view class="page__bd_spacing">
+    <view class="weui-flex">
+      <view class="weui-flex__item"><view class="placeholder">登录</view></view>
+    </view>
+  </view>
+  <view class="page__bd">
     <form bindsubmit='login'>
-      <view class='loginInputView'>登录名：
-        <input type='text' name='username' class='loginInput'></input>
+      <view class='weui-cells weui-cells_after-title'>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">登录名</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" name='username' placeholder="请输入登录名"/>
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">密码</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" name='password' password placeholder="请输入密码"/>
+            </view>
+        </view>
       </view>
-      <view class='loginInputView'>密码：<input type='text' name='password' password></input></view>
-      <view><button form-type="submit">登录</button></view>
+      <view class="weui-btn-area">
+          <button class="weui-btn" type="warn" form-type="submit">登录</button>
+      </view>
     </form>
   </view>
 </view>

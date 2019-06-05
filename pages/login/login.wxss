@@ -1,21 +1,9 @@
-.container{
-  display: -webkit-flex;
-  display: flex;
-  padding-top:50rpx;
-  padding-bottom:10rpx;
-  font-weight: bold;
-}
-.loginInputView{
-  display: -webkit-flex;
-  display: flex;
-  border: lightgrey;
-  border-style: solid;
-  border-width: 1px;
-  padding-top:10rpx;
-  padding-bottom:10rpx;
-}
-.loginInput{
-  display: -webkit-flex;
-  display: flex;
-  font-size: 14px;
+.placeholder{
+    padding-top: 50rpx;
+    padding-bottom: 10rpx;
+    text-align: center;
+    font-weight:bold;
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #000;
 }

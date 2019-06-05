@@ -3,7 +3,8 @@
     "pages/login/login",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/personal/personal"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -38,7 +39,7 @@
         "text": "团队"
       },
       {
-        "pagePath": "pages/test/test",
+        "pagePath": "pages/personal/personal",
         "iconPath": "pages/img/common/personal.png",
         "selectedIconPath": "pages/img/common/selectPersonal.png",
         "text": "个人"
