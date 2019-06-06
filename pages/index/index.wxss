@@ -1,21 +1,63 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.index_top_background{
+  background-color: #eb6460;
+  height: 350rpx;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.mer_title_text{
+  padding-top: 40rpx;
+  padding-left: 80rpx;
+  color: #fff;
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.index_detail_background{
+  background-color: #ffffff;
+  margin-top: 10rpx;
+  margin-left:50rpx; 
+  width: 650rpx;
+  height: 400rpx;
 }
-
-.usermotto {
-  margin-top: 200px;
+.index_detail_desc{
+  text-align: center;
+  padding-top: 30rpx;
+}
+.index_detail_trading{
+  padding-top: 60rpx;
+  text-align: center;
+  font-size: 80rpx;
+}
+.button-sp-area{
+    margin: 0 auto;
+    padding-top: 15rpx;
+    width: 60%;
+}
+.index_detail_button{
+  text-align: center;
+}
+.index_mer_detail_background{
+  background-color: #ffffff;
+  margin-top: 40rpx;
+  margin-left:50rpx; 
+  width: 650rpx;
+  height: 10rem;
+}
+.weui-footer{
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  text-align: left;
+  font-size: 40rpx;
+}
+.weui-footer_fixed-bottom{
+  left: 0;
+  margin-bottom: 0;
+}
+.placeholder{
+    margin: 5rpx;
+    padding: 0 10rpx;
+    text-align: center;
+}
+.index_mer_number{
+  padding-top: 20rpx;
+  text-align: center;
+  font-size: 50rpx;
+}
+.mini-btn{
+    margin-right: 5px;
 }

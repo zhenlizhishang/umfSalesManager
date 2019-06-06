@@ -6,8 +6,8 @@ Page({
    */
   data: {
     username:'',
-    name:'????',
-    phone:'110'
+    name:'刘佳昱',
+    phone:'17601023786'
   },
   onShow: function(){
     var username = wx.getStorageSync('username');

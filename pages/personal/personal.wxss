@@ -3,3 +3,7 @@
     padding-top: 15px;
     width: 60%;
 }
+.personal_exit_button{
+  display: flex;
+  margin-bottom:50rpx;
+}

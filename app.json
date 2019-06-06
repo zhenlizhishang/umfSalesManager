@@ -33,6 +33,12 @@
       },
       {
         "pagePath": "pages/test/test",
+        "iconPath": "pages/img/common/mer.png",
+        "selectedIconPath": "pages/img/common/selectMer.png",
+        "text": "店铺"
+      },
+      {
+        "pagePath": "pages/test/test",
         "iconPath": "pages/img/common/team.png",
         "selectedIconPath": "pages/img/common/selectTeam.png",
         "text": "团队"

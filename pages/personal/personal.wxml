@@ -24,7 +24,7 @@
             </view>
         </view>
     </view>
-    <view class="page__bd page__bd_spacing" style='padding-top:500rpx'>
+    <view class="page__bd page__bd_spacing weui-footer_fixed-bottom">
       <view class="button-sp-area">
         <button class="weui-btn" type="default" plain="true" bindtap='exitLogin'>退出登陆</button>
       </view>

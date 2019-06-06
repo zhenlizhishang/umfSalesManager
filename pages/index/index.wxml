@@ -1,13 +1,48 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view class='page index_top_background'>
+  <view class='mer_title_text'>
+    今日商户交易情况
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class='index_detail_background'>
+    <view class='page__desc index_detail_desc'>
+      交易金额(CNY)
+    </view>
+    <view class='page__title index_detail_trading'>
+      {{indexTradingAmount}}
+    </view>
+     <view class="button-sp-area index_detail_button">
+      <button class="weui-btn mini-btn" type="default" size="mini" bindtap='showIndexDetail'>查看详情</button>
+    </view>
+  </view>
+
+  <view class='index_mer_detail_background'>
+    <view class=" weui-cells_in-small-appmsg">
+      <view class="weui-cell weui-cell_access">
+        <view class="weui-cell__hd">
+            <image src="/pages/img/index/mymer.png" style="width: 20px;height: 20px;margin-right: 5px" /></view>
+            <view class="weui-cell__bd weui-cell_primary">
+              <view>我的商户</view>
+            </view>
+            <view class="weui-cell__ft">
+              <button class="weui-btn mini-btn" type="default" size="mini" bindtap='tradeStatistics'>交易统计</button>
+            </view>
+        </view>            
+    </view>
+    <view class="page__bd">
+        <view class="weui-flex">
+            <view class="weui-flex__item placeholder">
+              <view class="page__desc index_detail_desc">商户总数</view>
+              <view class="page__title index_mer_number">{{allMerNumber}}</view>
+            </view>
+            <view class="weui-flex__item placeholder">
+              <view class="page__desc index_detail_desc">本季度新增商户数</view>
+              <view class="page__title index_mer_number">{{newAddMerNumber}}</view>
+            </view>
+        </view>
+    </view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+        <view class="weui-footer">
+            <view class="weui-footer__text">注：交易数据全部取自财务预估报表，仅做参考。</view>
+        </view>
   </view>
 </view>
