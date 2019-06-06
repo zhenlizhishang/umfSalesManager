@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/team/team",
     "pages/login/login",
     "pages/index/index",
     "pages/test/test",
@@ -38,7 +39,7 @@
         "text": "店铺"
       },
       {
-        "pagePath": "pages/test/test",
+        "pagePath": "pages/team/team",
         "iconPath": "pages/img/common/team.png",
         "selectedIconPath": "pages/img/common/selectTeam.png",
         "text": "团队"
